@@ -1,0 +1,23 @@
+{
+            "id": "lil48649.app.sub",
+            "name": "大丑子 应用订阅",
+            "author": "@lil48649",
+            "icon": "https://s3.ax1x.com/2021/02/17/ygLAIA.jpg",
+            "repo": "https://github.com/adwktt/adwktt/blob/master",
+            "apps": [{
+            "id": "BBB",
+            "name": "步步宝",
+            "keys": ["CookieVal"],
+            "author": "lil48649",
+            "settings": [{
+            "name": "notice",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+            "repo": "https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js",
+            "icons": ["https://gitee.com/ydj0602/hym/raw/img/DKD.PNG", "https://gitee.com/ydj0602/hym/raw/img/DKD.PNG"],
+            "script": "https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js"
+    }
+ ]
+}
