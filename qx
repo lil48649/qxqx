@@ -6,8 +6,6 @@ hostname = api.wscdn.vip, ap*.intsig.net, openuserjs.org, trade-acs.m.taobao.com
 # Duet Display Unlock Pro （by LTribe）    
 ^https?:\/\/rdp\.duetdisplay\.com\/v\d\/users\/validateReceipt url script-response-body https://raw.githubusercontent.com/lil48649/qxqx/master/CamScanner.js
 
-^http:\/\/api\.wscdn\.vip\/index.+ url script-response-body bbsp.js
-
 #微信链接转通知
 ^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi url script-response-body https://raw.githubusercontent.com/HotKids/Rules/master/Script/weixin110.js
 
