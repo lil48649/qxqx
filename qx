@@ -7,7 +7,7 @@ hostname = api.wscdn.vip, ap*.intsig.net, openuserjs.org, trade-acs.m.taobao.com
 ^https?:\/\/rdp\.duetdisplay\.com\/v\d\/users\/validateReceipt url script-response-body https://raw.githubusercontent.com/lil48649/qxqx/master/CamScanner.js
 
 # 去微信公众号广告 (By Choler)
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+#^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 # WPS (By eHpo)
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/lil48649/qxqx/master/wps.js
